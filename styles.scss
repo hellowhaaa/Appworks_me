@@ -1,5 +1,5 @@
-@import "../bootstrap-5.3.1/bootstrap-5.3.1/scss/bootstrap-reboot";
-@import "../bootstrap-5.3.1/bootstrap-5.3.1/scss/bootstrap-grid.scss";
+@import "./bootstarp-5.3.1scss/bootstrap-reboot.scss";
+@import "./bootstarp-5.3.1scss/bootstrap-grid.scss";
 
 * {
     padding: 0;
@@ -130,12 +130,51 @@ nav {
 
 // sencond-page---------------------------------------
 
-.second-container .row {
+
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+.second-block {
+
+    height: 80%;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.second-me {
+    width: 100%;
+    height: 80%;
+}
+
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-intro {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 183, 172, 0.645);
+    width: 80%;
+    height: 60%;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+.edu {
+    margin: 0 0 0 80px;
+}
 
 .tab-title {
     display: flex;
