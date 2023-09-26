@@ -4733,15 +4733,10 @@ nav {
 }
 
 .page {
+  width: 100%;
   height: 100vh;
   display: flex;
   scroll-snap-align: start;
-}
-
-.big-container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
 }
 
 .bg-suit {
@@ -4781,108 +4776,8 @@ nav {
   margin: 1rem 0;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.second-block {
-  height: 80%;
-  border: 1px solid black;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.second-me {
-  width: 100%;
-  height: 80%;
-}
-
-.two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.second-intro {
-  display: flex;
-  align-items: center;
-  background-color: rgba(196, 183, 172, 0.645);
-  width: 80%;
-  height: 60%;
-  border: 1px solid black;
-  border-radius: 2%;
-}
-
-.edu {
-  margin: 0 0 0 80px;
-}
-
-.tab-title {
-  display: flex;
-  margin: 20px 0 40px;
-}
-
-.tab-links {
-  margin-right: 50px;
-  font-size: 16px;
-  font-weight: 400;
-  cursor: pointer;
-  position: relative;
-}
-.tab-links::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background-color: red;
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  transition: 0.5s;
-}
-
-.tab-links.active-link::after {
-  width: 50%;
-}
-
-.tab-content ul li {
-  list-style: none;
-  margin: 10px 0;
-}
-.tab-content ul li span {
-  font-size: 14px;
-}
-
-.tab-content {
-  display: none;
-}
-
-.active-tab {
-  display: block;
-}
-
-.transfer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.one {
+.big-container {
   background-color: #edede9;
-}
-
-.two {
-  background-color: #d6ccc2;
-}
-
-.three {
-  background-color: #f5ebe0;
-}
-
-.four {
-  background-color: #e3d5ca;
 }
 
 p-absolute {
