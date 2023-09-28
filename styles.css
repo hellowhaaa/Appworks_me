@@ -4686,13 +4686,17 @@ body {
   font-size: 2rem;
 }
 
+.profile a i {
+  margin-top: 10px;
+}
+
 .nav-bar {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.3rem 2rem;
   background-color: rgba(39, 65, 7, 0.527);
 }
 
@@ -4739,6 +4743,14 @@ nav {
   scroll-snap-align: start;
 }
 
+.inside {
+  margin: 0 0.2rem;
+}
+
+.big-container {
+  height: 100%;
+}
+
 .bg-suit {
   width: 600px;
   height: 600px;
@@ -4751,6 +4763,10 @@ nav {
   height: 100vh;
 }
 
+.prove {
+  list-style: none;
+}
+
 .intro {
   display: flex;
   justify-content: start;
@@ -4758,22 +4774,88 @@ nav {
   height: 100vh;
 }
 
+.prove li i {
+  padding: 10px 20px;
+}
+
 .intro-head {
   font-size: 50px;
   font-weight: 600;
+  padding: 0 10px 0 0;
+}
+
+.intro-head .iam {
+  font-size: 20px;
+  padding: 0 20px 0 0;
+}
+
+.intro-head .iam2 {
+  font-size: 20px;
+  padding: 0 20px 0 10px;
 }
 
 .intro-content {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .icon {
-  font-size: x-large;
-  width: 4rem;
+  font-size: xx-large;
+  width: 8rem;
+  display: inline;
+}
+
+.eachicon {
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.eachicon:hover {
+  color: #588157;
+}
+
+.below {
+  margin: 50px 0 0 0;
+}
+
+.below-inner .btn2 {
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+.below-inner .btn2:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  text-decoration: none;
+  width: 12rem;
+  height: 55px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px;
+  line-height: 60px;
+  text-align: center;
+  border: 3px solid #588157;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+  transition: 0.3s ease-in;
+}
+.btn:hover {
+  box-shadow: inset 12rem 0px 0px 100px #588157;
+  color: white;
+  cursor: pointer;
+}
+
+.below-inner {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 1rem 0;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .big-container {
