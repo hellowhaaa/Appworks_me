@@ -4719,7 +4719,7 @@ body {
 }
 .list-item a:active,
 .profile a:active {
-  background-color: yellow;
+  color: white;
 }
 
 nav {
